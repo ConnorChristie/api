@@ -794,7 +794,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -814,7 +814,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -840,7 +840,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         payload_ = s;
@@ -860,7 +860,7 @@ public final class Events {
         getPayloadBytes() {
       java.lang.Object ref = payload_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         payload_ = b;
@@ -1227,7 +1227,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -1250,7 +1250,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -1264,7 +1264,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -1284,7 +1284,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -1323,7 +1323,7 @@ public final class Events {
           getPayloadBytes() {
         java.lang.Object ref = payload_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           payload_ = b;
@@ -1346,7 +1346,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         payload_ = value;
         onChanged();
         return this;
@@ -1360,7 +1360,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPayload() {
-
+        
         payload_ = getDefaultInstance().getPayload();
         onChanged();
         return this;
@@ -1380,7 +1380,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         payload_ = value;
         onChanged();
         return this;
@@ -1814,7 +1814,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         partyId_ = s;
@@ -1834,7 +1834,7 @@ public final class Events {
         getPartyIdBytes() {
       java.lang.Object ref = partyId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         partyId_ = b;
@@ -1860,7 +1860,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         errMsg_ = s;
@@ -1880,7 +1880,7 @@ public final class Events {
         getErrMsgBytes() {
       java.lang.Object ref = errMsg_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         errMsg_ = b;
@@ -2616,7 +2616,7 @@ public final class Events {
           getPartyIdBytes() {
         java.lang.Object ref = partyId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           partyId_ = b;
@@ -2639,7 +2639,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         partyId_ = value;
         onChanged();
         return this;
@@ -2653,7 +2653,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPartyId() {
-
+        
         partyId_ = getDefaultInstance().getPartyId();
         onChanged();
         return this;
@@ -2673,7 +2673,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         partyId_ = value;
         onChanged();
         return this;
@@ -2712,7 +2712,7 @@ public final class Events {
           getErrMsgBytes() {
         java.lang.Object ref = errMsg_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           errMsg_ = b;
@@ -2735,7 +2735,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         errMsg_ = value;
         onChanged();
         return this;
@@ -2749,7 +2749,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearErrMsg() {
-
+        
         errMsg_ = getDefaultInstance().getErrMsg();
         onChanged();
         return this;
@@ -2769,7 +2769,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         errMsg_ = value;
         onChanged();
         return this;
@@ -2898,7 +2898,7 @@ public final class Events {
        * <code>.vega.OrderSubmission order_submission = 101 [json_name = "orderSubmission"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.OrderSubmission, io.vegaprotocol.vega.Vega.OrderSubmission.Builder, io.vegaprotocol.vega.Vega.OrderSubmissionOrBuilder>
+          io.vegaprotocol.vega.Vega.OrderSubmission, io.vegaprotocol.vega.Vega.OrderSubmission.Builder, io.vegaprotocol.vega.Vega.OrderSubmissionOrBuilder> 
           getOrderSubmissionFieldBuilder() {
         if (orderSubmissionBuilder_ == null) {
           if (!(transactionCase_ == 101)) {
@@ -3039,7 +3039,7 @@ public final class Events {
        * <code>.vega.OrderAmendment order_amendment = 102 [json_name = "orderAmendment"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.OrderAmendment, io.vegaprotocol.vega.Vega.OrderAmendment.Builder, io.vegaprotocol.vega.Vega.OrderAmendmentOrBuilder>
+          io.vegaprotocol.vega.Vega.OrderAmendment, io.vegaprotocol.vega.Vega.OrderAmendment.Builder, io.vegaprotocol.vega.Vega.OrderAmendmentOrBuilder> 
           getOrderAmendmentFieldBuilder() {
         if (orderAmendmentBuilder_ == null) {
           if (!(transactionCase_ == 102)) {
@@ -3180,7 +3180,7 @@ public final class Events {
        * <code>.vega.OrderCancellation order_cancellation = 103 [json_name = "orderCancellation"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.OrderCancellation, io.vegaprotocol.vega.Vega.OrderCancellation.Builder, io.vegaprotocol.vega.Vega.OrderCancellationOrBuilder>
+          io.vegaprotocol.vega.Vega.OrderCancellation, io.vegaprotocol.vega.Vega.OrderCancellation.Builder, io.vegaprotocol.vega.Vega.OrderCancellationOrBuilder> 
           getOrderCancellationFieldBuilder() {
         if (orderCancellationBuilder_ == null) {
           if (!(transactionCase_ == 103)) {
@@ -3321,7 +3321,7 @@ public final class Events {
        * <code>.vega.Proposal proposal = 104 [json_name = "proposal"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Governance.Proposal, io.vegaprotocol.vega.Governance.Proposal.Builder, io.vegaprotocol.vega.Governance.ProposalOrBuilder>
+          io.vegaprotocol.vega.Governance.Proposal, io.vegaprotocol.vega.Governance.Proposal.Builder, io.vegaprotocol.vega.Governance.ProposalOrBuilder> 
           getProposalFieldBuilder() {
         if (proposalBuilder_ == null) {
           if (!(transactionCase_ == 104)) {
@@ -3462,7 +3462,7 @@ public final class Events {
        * <code>.vega.Vote vote = 105 [json_name = "vote"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Governance.Vote, io.vegaprotocol.vega.Governance.Vote.Builder, io.vegaprotocol.vega.Governance.VoteOrBuilder>
+          io.vegaprotocol.vega.Governance.Vote, io.vegaprotocol.vega.Governance.Vote.Builder, io.vegaprotocol.vega.Governance.VoteOrBuilder> 
           getVoteFieldBuilder() {
         if (voteBuilder_ == null) {
           if (!(transactionCase_ == 105)) {
@@ -3603,7 +3603,7 @@ public final class Events {
        * <code>.vega.LiquidityProvisionSubmission liquidity_provision_submission = 106 [json_name = "liquidityProvisionSubmission"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.LiquidityProvisionSubmission, io.vegaprotocol.vega.Vega.LiquidityProvisionSubmission.Builder, io.vegaprotocol.vega.Vega.LiquidityProvisionSubmissionOrBuilder>
+          io.vegaprotocol.vega.Vega.LiquidityProvisionSubmission, io.vegaprotocol.vega.Vega.LiquidityProvisionSubmission.Builder, io.vegaprotocol.vega.Vega.LiquidityProvisionSubmissionOrBuilder> 
           getLiquidityProvisionSubmissionFieldBuilder() {
         if (liquidityProvisionSubmissionBuilder_ == null) {
           if (!(transactionCase_ == 106)) {
@@ -4118,7 +4118,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setTimestamp(long value) {
-
+        
         timestamp_ = value;
         onChanged();
         return this;
@@ -4132,7 +4132,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearTimestamp() {
-
+        
         timestamp_ = 0L;
         onChanged();
         return this;
@@ -4201,7 +4201,7 @@ public final class Events {
      *
      * <code>repeated .vega.TransferResponse responses = 1 [json_name = "responses"];</code>
      */
-    java.util.List<io.vegaprotocol.vega.Vega.TransferResponse>
+    java.util.List<io.vegaprotocol.vega.Vega.TransferResponse> 
         getResponsesList();
     /**
      * <pre>
@@ -4226,7 +4226,7 @@ public final class Events {
      *
      * <code>repeated .vega.TransferResponse responses = 1 [json_name = "responses"];</code>
      */
-    java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder>
+    java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder> 
         getResponsesOrBuilderList();
     /**
      * <pre>
@@ -4354,7 +4354,7 @@ public final class Events {
      * <code>repeated .vega.TransferResponse responses = 1 [json_name = "responses"];</code>
      */
     @java.lang.Override
-    public java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder>
+    public java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder> 
         getResponsesOrBuilderList() {
       return responses_;
     }
@@ -4701,7 +4701,7 @@ public final class Events {
               responsesBuilder_ = null;
               responses_ = other.responses_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              responsesBuilder_ =
+              responsesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getResponsesFieldBuilder() : null;
             } else {
@@ -4994,7 +4994,7 @@ public final class Events {
        *
        * <code>repeated .vega.TransferResponse responses = 1 [json_name = "responses"];</code>
        */
-      public java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder>
+      public java.util.List<? extends io.vegaprotocol.vega.Vega.TransferResponseOrBuilder> 
            getResponsesOrBuilderList() {
         if (responsesBuilder_ != null) {
           return responsesBuilder_.getMessageOrBuilderList();
@@ -5032,12 +5032,12 @@ public final class Events {
        *
        * <code>repeated .vega.TransferResponse responses = 1 [json_name = "responses"];</code>
        */
-      public java.util.List<io.vegaprotocol.vega.Vega.TransferResponse.Builder>
+      public java.util.List<io.vegaprotocol.vega.Vega.TransferResponse.Builder> 
            getResponsesBuilderList() {
         return getResponsesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.TransferResponse, io.vegaprotocol.vega.Vega.TransferResponse.Builder, io.vegaprotocol.vega.Vega.TransferResponseOrBuilder>
+          io.vegaprotocol.vega.Vega.TransferResponse, io.vegaprotocol.vega.Vega.TransferResponse.Builder, io.vegaprotocol.vega.Vega.TransferResponseOrBuilder> 
           getResponsesFieldBuilder() {
         if (responsesBuilder_ == null) {
           responsesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -5277,7 +5277,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -5297,7 +5297,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -5746,7 +5746,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -5769,7 +5769,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -5783,7 +5783,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -5803,7 +5803,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -5832,7 +5832,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setDistressed(long value) {
-
+        
         distressed_ = value;
         onChanged();
         return this;
@@ -5846,7 +5846,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearDistressed() {
-
+        
         distressed_ = 0L;
         onChanged();
         return this;
@@ -5875,7 +5875,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setClosed(long value) {
-
+        
         closed_ = value;
         onChanged();
         return this;
@@ -5889,7 +5889,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearClosed() {
-
+        
         closed_ = 0L;
         onChanged();
         return this;
@@ -5920,7 +5920,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setMarkPrice(long value) {
-
+        
         markPrice_ = value;
         onChanged();
         return this;
@@ -5935,7 +5935,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarkPrice() {
-
+        
         markPrice_ = 0L;
         onChanged();
         return this;
@@ -6163,7 +6163,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -6183,7 +6183,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -6209,7 +6209,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         partyId_ = s;
@@ -6229,7 +6229,7 @@ public final class Events {
         getPartyIdBytes() {
       java.lang.Object ref = partyId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         partyId_ = b;
@@ -6628,7 +6628,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -6651,7 +6651,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -6665,7 +6665,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -6685,7 +6685,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -6724,7 +6724,7 @@ public final class Events {
           getPartyIdBytes() {
         java.lang.Object ref = partyId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           partyId_ = b;
@@ -6747,7 +6747,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         partyId_ = value;
         onChanged();
         return this;
@@ -6761,7 +6761,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPartyId() {
-
+        
         partyId_ = getDefaultInstance().getPartyId();
         onChanged();
         return this;
@@ -6781,7 +6781,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         partyId_ = value;
         onChanged();
         return this;
@@ -6810,7 +6810,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setAmount(long value) {
-
+        
         amount_ = value;
         onChanged();
         return this;
@@ -6824,7 +6824,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearAmount() {
-
+        
         amount_ = 0L;
         onChanged();
         return this;
@@ -7377,7 +7377,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setSize(long value) {
-
+        
         size_ = value;
         onChanged();
         return this;
@@ -7391,7 +7391,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearSize() {
-
+        
         size_ = 0L;
         onChanged();
         return this;
@@ -7422,7 +7422,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setPrice(long value) {
-
+        
         price_ = value;
         onChanged();
         return this;
@@ -7437,7 +7437,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPrice() {
-
+        
         price_ = 0L;
         onChanged();
         return this;
@@ -7557,7 +7557,7 @@ public final class Events {
      *
      * <code>repeated .vega.TradeSettlement trade_settlements = 4 [json_name = "tradeSettlements"];</code>
      */
-    java.util.List<io.vegaprotocol.vega.Events.TradeSettlement>
+    java.util.List<io.vegaprotocol.vega.Events.TradeSettlement> 
         getTradeSettlementsList();
     /**
      * <pre>
@@ -7582,7 +7582,7 @@ public final class Events {
      *
      * <code>repeated .vega.TradeSettlement trade_settlements = 4 [json_name = "tradeSettlements"];</code>
      */
-    java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder>
+    java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder> 
         getTradeSettlementsOrBuilderList();
     /**
      * <pre>
@@ -7724,7 +7724,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -7744,7 +7744,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -7770,7 +7770,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         partyId_ = s;
@@ -7790,7 +7790,7 @@ public final class Events {
         getPartyIdBytes() {
       java.lang.Object ref = partyId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         partyId_ = b;
@@ -7837,7 +7837,7 @@ public final class Events {
      * <code>repeated .vega.TradeSettlement trade_settlements = 4 [json_name = "tradeSettlements"];</code>
      */
     @java.lang.Override
-    public java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder>
+    public java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder> 
         getTradeSettlementsOrBuilderList() {
       return tradeSettlements_;
     }
@@ -8236,7 +8236,7 @@ public final class Events {
               tradeSettlementsBuilder_ = null;
               tradeSettlements_ = other.tradeSettlements_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              tradeSettlementsBuilder_ =
+              tradeSettlementsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTradeSettlementsFieldBuilder() : null;
             } else {
@@ -8307,7 +8307,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -8330,7 +8330,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -8344,7 +8344,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -8364,7 +8364,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -8403,7 +8403,7 @@ public final class Events {
           getPartyIdBytes() {
         java.lang.Object ref = partyId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           partyId_ = b;
@@ -8426,7 +8426,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         partyId_ = value;
         onChanged();
         return this;
@@ -8440,7 +8440,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPartyId() {
-
+        
         partyId_ = getDefaultInstance().getPartyId();
         onChanged();
         return this;
@@ -8460,7 +8460,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         partyId_ = value;
         onChanged();
         return this;
@@ -8491,7 +8491,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setPrice(long value) {
-
+        
         price_ = value;
         onChanged();
         return this;
@@ -8506,7 +8506,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPrice() {
-
+        
         price_ = 0L;
         onChanged();
         return this;
@@ -8767,7 +8767,7 @@ public final class Events {
        *
        * <code>repeated .vega.TradeSettlement trade_settlements = 4 [json_name = "tradeSettlements"];</code>
        */
-      public java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder>
+      public java.util.List<? extends io.vegaprotocol.vega.Events.TradeSettlementOrBuilder> 
            getTradeSettlementsOrBuilderList() {
         if (tradeSettlementsBuilder_ != null) {
           return tradeSettlementsBuilder_.getMessageOrBuilderList();
@@ -8805,12 +8805,12 @@ public final class Events {
        *
        * <code>repeated .vega.TradeSettlement trade_settlements = 4 [json_name = "tradeSettlements"];</code>
        */
-      public java.util.List<io.vegaprotocol.vega.Events.TradeSettlement.Builder>
+      public java.util.List<io.vegaprotocol.vega.Events.TradeSettlement.Builder> 
            getTradeSettlementsBuilderList() {
         return getTradeSettlementsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.vegaprotocol.vega.Events.TradeSettlement, io.vegaprotocol.vega.Events.TradeSettlement.Builder, io.vegaprotocol.vega.Events.TradeSettlementOrBuilder>
+          io.vegaprotocol.vega.Events.TradeSettlement, io.vegaprotocol.vega.Events.TradeSettlement.Builder, io.vegaprotocol.vega.Events.TradeSettlementOrBuilder> 
           getTradeSettlementsFieldBuilder() {
         if (tradeSettlementsBuilder_ == null) {
           tradeSettlementsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -9063,7 +9063,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -9083,7 +9083,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -9109,7 +9109,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         partyId_ = s;
@@ -9129,7 +9129,7 @@ public final class Events {
         getPartyIdBytes() {
       java.lang.Object ref = partyId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         partyId_ = b;
@@ -9563,7 +9563,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -9586,7 +9586,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -9600,7 +9600,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -9620,7 +9620,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -9659,7 +9659,7 @@ public final class Events {
           getPartyIdBytes() {
         java.lang.Object ref = partyId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           partyId_ = b;
@@ -9682,7 +9682,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         partyId_ = value;
         onChanged();
         return this;
@@ -9696,7 +9696,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPartyId() {
-
+        
         partyId_ = getDefaultInstance().getPartyId();
         onChanged();
         return this;
@@ -9716,7 +9716,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         partyId_ = value;
         onChanged();
         return this;
@@ -9747,7 +9747,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setMargin(long value) {
-
+        
         margin_ = value;
         onChanged();
         return this;
@@ -9762,7 +9762,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMargin() {
-
+        
         margin_ = 0L;
         onChanged();
         return this;
@@ -9793,7 +9793,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setPrice(long value) {
-
+        
         price_ = value;
         onChanged();
         return this;
@@ -9808,7 +9808,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearPrice() {
-
+        
         price_ = 0L;
         onChanged();
         return this;
@@ -10009,7 +10009,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         id_ = s;
@@ -10029,7 +10029,7 @@ public final class Events {
         getIdBytes() {
       java.lang.Object ref = id_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         id_ = b;
@@ -10411,7 +10411,7 @@ public final class Events {
           getIdBytes() {
         java.lang.Object ref = id_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           id_ = b;
@@ -10434,7 +10434,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         id_ = value;
         onChanged();
         return this;
@@ -10448,7 +10448,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-
+        
         id_ = getDefaultInstance().getId();
         onChanged();
         return this;
@@ -10468,7 +10468,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         id_ = value;
         onChanged();
         return this;
@@ -10497,7 +10497,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setTime(long value) {
-
+        
         time_ = value;
         onChanged();
         return this;
@@ -10511,7 +10511,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearTime() {
-
+        
         time_ = 0L;
         onChanged();
         return this;
@@ -10811,7 +10811,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         marketId_ = s;
@@ -10831,7 +10831,7 @@ public final class Events {
         getMarketIdBytes() {
       java.lang.Object ref = marketId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         marketId_ = b;
@@ -11400,7 +11400,7 @@ public final class Events {
           getMarketIdBytes() {
         java.lang.Object ref = marketId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           marketId_ = b;
@@ -11423,7 +11423,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         marketId_ = value;
         onChanged();
         return this;
@@ -11437,7 +11437,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearMarketId() {
-
+        
         marketId_ = getDefaultInstance().getMarketId();
         onChanged();
         return this;
@@ -11457,7 +11457,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         marketId_ = value;
         onChanged();
         return this;
@@ -11486,7 +11486,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setOpeningAuction(boolean value) {
-
+        
         openingAuction_ = value;
         onChanged();
         return this;
@@ -11500,7 +11500,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearOpeningAuction() {
-
+        
         openingAuction_ = false;
         onChanged();
         return this;
@@ -11529,7 +11529,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setLeave(boolean value) {
-
+        
         leave_ = value;
         onChanged();
         return this;
@@ -11543,7 +11543,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearLeave() {
-
+        
         leave_ = false;
         onChanged();
         return this;
@@ -11572,7 +11572,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setStart(long value) {
-
+        
         start_ = value;
         onChanged();
         return this;
@@ -11586,7 +11586,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearStart() {
-
+        
         start_ = 0L;
         onChanged();
         return this;
@@ -11615,7 +11615,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setEnd(long value) {
-
+        
         end_ = value;
         onChanged();
         return this;
@@ -11629,7 +11629,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearEnd() {
-
+        
         end_ = 0L;
         onChanged();
         return this;
@@ -11657,7 +11657,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setTriggerValue(int value) {
-
+        
         trigger_ = value;
         onChanged();
         return this;
@@ -11689,7 +11689,7 @@ public final class Events {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         trigger_ = value.getNumber();
         onChanged();
         return this;
@@ -11703,7 +11703,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearTrigger() {
-
+        
         trigger_ = 0;
         onChanged();
         return this;
@@ -11733,7 +11733,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setExtensionTriggerValue(int value) {
-
+        
         extensionTrigger_ = value;
         onChanged();
         return this;
@@ -11767,7 +11767,7 @@ public final class Events {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         extensionTrigger_ = value.getNumber();
         onChanged();
         return this;
@@ -11782,7 +11782,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearExtensionTrigger() {
-
+        
         extensionTrigger_ = 0;
         onChanged();
         return this;
@@ -13307,7 +13307,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         id_ = s;
@@ -13327,7 +13327,7 @@ public final class Events {
         getIdBytes() {
       java.lang.Object ref = id_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         id_ = b;
@@ -13353,7 +13353,7 @@ public final class Events {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         block_ = s;
@@ -13373,7 +13373,7 @@ public final class Events {
         getBlockBytes() {
       java.lang.Object ref = block_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         block_ = b;
@@ -15815,7 +15815,7 @@ public final class Events {
           getIdBytes() {
         java.lang.Object ref = id_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           id_ = b;
@@ -15838,7 +15838,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         id_ = value;
         onChanged();
         return this;
@@ -15852,7 +15852,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-
+        
         id_ = getDefaultInstance().getId();
         onChanged();
         return this;
@@ -15872,7 +15872,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         id_ = value;
         onChanged();
         return this;
@@ -15911,7 +15911,7 @@ public final class Events {
           getBlockBytes() {
         java.lang.Object ref = block_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           block_ = b;
@@ -15934,7 +15934,7 @@ public final class Events {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         block_ = value;
         onChanged();
         return this;
@@ -15948,7 +15948,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearBlock() {
-
+        
         block_ = getDefaultInstance().getBlock();
         onChanged();
         return this;
@@ -15968,7 +15968,7 @@ public final class Events {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         block_ = value;
         onChanged();
         return this;
@@ -15996,7 +15996,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder setTypeValue(int value) {
-
+        
         type_ = value;
         onChanged();
         return this;
@@ -16028,7 +16028,7 @@ public final class Events {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         type_ = value.getNumber();
         onChanged();
         return this;
@@ -16042,7 +16042,7 @@ public final class Events {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-
+        
         type_ = 0;
         onChanged();
         return this;
@@ -16207,7 +16207,7 @@ public final class Events {
        * <code>.vega.TimeUpdate time_update = 101 [json_name = "timeUpdate"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.TimeUpdate, io.vegaprotocol.vega.Events.TimeUpdate.Builder, io.vegaprotocol.vega.Events.TimeUpdateOrBuilder>
+          io.vegaprotocol.vega.Events.TimeUpdate, io.vegaprotocol.vega.Events.TimeUpdate.Builder, io.vegaprotocol.vega.Events.TimeUpdateOrBuilder> 
           getTimeUpdateFieldBuilder() {
         if (timeUpdateBuilder_ == null) {
           if (!(eventCase_ == 101)) {
@@ -16384,7 +16384,7 @@ public final class Events {
        * <code>.vega.TransferResponses transfer_responses = 102 [json_name = "transferResponses"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.TransferResponses, io.vegaprotocol.vega.Events.TransferResponses.Builder, io.vegaprotocol.vega.Events.TransferResponsesOrBuilder>
+          io.vegaprotocol.vega.Events.TransferResponses, io.vegaprotocol.vega.Events.TransferResponses.Builder, io.vegaprotocol.vega.Events.TransferResponsesOrBuilder> 
           getTransferResponsesFieldBuilder() {
         if (transferResponsesBuilder_ == null) {
           if (!(eventCase_ == 102)) {
@@ -16561,7 +16561,7 @@ public final class Events {
        * <code>.vega.PositionResolution position_resolution = 103 [json_name = "positionResolution"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.PositionResolution, io.vegaprotocol.vega.Events.PositionResolution.Builder, io.vegaprotocol.vega.Events.PositionResolutionOrBuilder>
+          io.vegaprotocol.vega.Events.PositionResolution, io.vegaprotocol.vega.Events.PositionResolution.Builder, io.vegaprotocol.vega.Events.PositionResolutionOrBuilder> 
           getPositionResolutionFieldBuilder() {
         if (positionResolutionBuilder_ == null) {
           if (!(eventCase_ == 103)) {
@@ -16738,7 +16738,7 @@ public final class Events {
        * <code>.vega.Order order = 104 [json_name = "order"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Order, io.vegaprotocol.vega.Vega.Order.Builder, io.vegaprotocol.vega.Vega.OrderOrBuilder>
+          io.vegaprotocol.vega.Vega.Order, io.vegaprotocol.vega.Vega.Order.Builder, io.vegaprotocol.vega.Vega.OrderOrBuilder> 
           getOrderFieldBuilder() {
         if (orderBuilder_ == null) {
           if (!(eventCase_ == 104)) {
@@ -16915,7 +16915,7 @@ public final class Events {
        * <code>.vega.Account account = 105 [json_name = "account"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Account, io.vegaprotocol.vega.Vega.Account.Builder, io.vegaprotocol.vega.Vega.AccountOrBuilder>
+          io.vegaprotocol.vega.Vega.Account, io.vegaprotocol.vega.Vega.Account.Builder, io.vegaprotocol.vega.Vega.AccountOrBuilder> 
           getAccountFieldBuilder() {
         if (accountBuilder_ == null) {
           if (!(eventCase_ == 105)) {
@@ -17092,7 +17092,7 @@ public final class Events {
        * <code>.vega.Party party = 106 [json_name = "party"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Party, io.vegaprotocol.vega.Vega.Party.Builder, io.vegaprotocol.vega.Vega.PartyOrBuilder>
+          io.vegaprotocol.vega.Vega.Party, io.vegaprotocol.vega.Vega.Party.Builder, io.vegaprotocol.vega.Vega.PartyOrBuilder> 
           getPartyFieldBuilder() {
         if (partyBuilder_ == null) {
           if (!(eventCase_ == 106)) {
@@ -17269,7 +17269,7 @@ public final class Events {
        * <code>.vega.Trade trade = 107 [json_name = "trade"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Trade, io.vegaprotocol.vega.Vega.Trade.Builder, io.vegaprotocol.vega.Vega.TradeOrBuilder>
+          io.vegaprotocol.vega.Vega.Trade, io.vegaprotocol.vega.Vega.Trade.Builder, io.vegaprotocol.vega.Vega.TradeOrBuilder> 
           getTradeFieldBuilder() {
         if (tradeBuilder_ == null) {
           if (!(eventCase_ == 107)) {
@@ -17446,7 +17446,7 @@ public final class Events {
        * <code>.vega.MarginLevels margin_levels = 108 [json_name = "marginLevels"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.MarginLevels, io.vegaprotocol.vega.Vega.MarginLevels.Builder, io.vegaprotocol.vega.Vega.MarginLevelsOrBuilder>
+          io.vegaprotocol.vega.Vega.MarginLevels, io.vegaprotocol.vega.Vega.MarginLevels.Builder, io.vegaprotocol.vega.Vega.MarginLevelsOrBuilder> 
           getMarginLevelsFieldBuilder() {
         if (marginLevelsBuilder_ == null) {
           if (!(eventCase_ == 108)) {
@@ -17623,7 +17623,7 @@ public final class Events {
        * <code>.vega.Proposal proposal = 109 [json_name = "proposal"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Governance.Proposal, io.vegaprotocol.vega.Governance.Proposal.Builder, io.vegaprotocol.vega.Governance.ProposalOrBuilder>
+          io.vegaprotocol.vega.Governance.Proposal, io.vegaprotocol.vega.Governance.Proposal.Builder, io.vegaprotocol.vega.Governance.ProposalOrBuilder> 
           getProposalFieldBuilder() {
         if (proposalBuilder_ == null) {
           if (!(eventCase_ == 109)) {
@@ -17800,7 +17800,7 @@ public final class Events {
        * <code>.vega.Vote vote = 110 [json_name = "vote"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Governance.Vote, io.vegaprotocol.vega.Governance.Vote.Builder, io.vegaprotocol.vega.Governance.VoteOrBuilder>
+          io.vegaprotocol.vega.Governance.Vote, io.vegaprotocol.vega.Governance.Vote.Builder, io.vegaprotocol.vega.Governance.VoteOrBuilder> 
           getVoteFieldBuilder() {
         if (voteBuilder_ == null) {
           if (!(eventCase_ == 110)) {
@@ -17977,7 +17977,7 @@ public final class Events {
        * <code>.vega.MarketData market_data = 111 [json_name = "marketData"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.MarketData, io.vegaprotocol.vega.Vega.MarketData.Builder, io.vegaprotocol.vega.Vega.MarketDataOrBuilder>
+          io.vegaprotocol.vega.Vega.MarketData, io.vegaprotocol.vega.Vega.MarketData.Builder, io.vegaprotocol.vega.Vega.MarketDataOrBuilder> 
           getMarketDataFieldBuilder() {
         if (marketDataBuilder_ == null) {
           if (!(eventCase_ == 111)) {
@@ -18154,7 +18154,7 @@ public final class Events {
        * <code>.vega.NodeSignature node_signature = 112 [json_name = "nodeSignature"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.NodeSignature, io.vegaprotocol.vega.Vega.NodeSignature.Builder, io.vegaprotocol.vega.Vega.NodeSignatureOrBuilder>
+          io.vegaprotocol.vega.Vega.NodeSignature, io.vegaprotocol.vega.Vega.NodeSignature.Builder, io.vegaprotocol.vega.Vega.NodeSignatureOrBuilder> 
           getNodeSignatureFieldBuilder() {
         if (nodeSignatureBuilder_ == null) {
           if (!(eventCase_ == 112)) {
@@ -18331,7 +18331,7 @@ public final class Events {
        * <code>.vega.LossSocialization loss_socialization = 113 [json_name = "lossSocialization"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.LossSocialization, io.vegaprotocol.vega.Events.LossSocialization.Builder, io.vegaprotocol.vega.Events.LossSocializationOrBuilder>
+          io.vegaprotocol.vega.Events.LossSocialization, io.vegaprotocol.vega.Events.LossSocialization.Builder, io.vegaprotocol.vega.Events.LossSocializationOrBuilder> 
           getLossSocializationFieldBuilder() {
         if (lossSocializationBuilder_ == null) {
           if (!(eventCase_ == 113)) {
@@ -18508,7 +18508,7 @@ public final class Events {
        * <code>.vega.SettlePosition settle_position = 114 [json_name = "settlePosition"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.SettlePosition, io.vegaprotocol.vega.Events.SettlePosition.Builder, io.vegaprotocol.vega.Events.SettlePositionOrBuilder>
+          io.vegaprotocol.vega.Events.SettlePosition, io.vegaprotocol.vega.Events.SettlePosition.Builder, io.vegaprotocol.vega.Events.SettlePositionOrBuilder> 
           getSettlePositionFieldBuilder() {
         if (settlePositionBuilder_ == null) {
           if (!(eventCase_ == 114)) {
@@ -18685,7 +18685,7 @@ public final class Events {
        * <code>.vega.SettleDistressed settle_distressed = 115 [json_name = "settleDistressed"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.SettleDistressed, io.vegaprotocol.vega.Events.SettleDistressed.Builder, io.vegaprotocol.vega.Events.SettleDistressedOrBuilder>
+          io.vegaprotocol.vega.Events.SettleDistressed, io.vegaprotocol.vega.Events.SettleDistressed.Builder, io.vegaprotocol.vega.Events.SettleDistressedOrBuilder> 
           getSettleDistressedFieldBuilder() {
         if (settleDistressedBuilder_ == null) {
           if (!(eventCase_ == 115)) {
@@ -18862,7 +18862,7 @@ public final class Events {
        * <code>.vega.Market market_created = 116 [json_name = "marketCreated"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Markets.Market, io.vegaprotocol.vega.Markets.Market.Builder, io.vegaprotocol.vega.Markets.MarketOrBuilder>
+          io.vegaprotocol.vega.Markets.Market, io.vegaprotocol.vega.Markets.Market.Builder, io.vegaprotocol.vega.Markets.MarketOrBuilder> 
           getMarketCreatedFieldBuilder() {
         if (marketCreatedBuilder_ == null) {
           if (!(eventCase_ == 116)) {
@@ -19039,7 +19039,7 @@ public final class Events {
        * <code>.vega.Asset asset = 117 [json_name = "asset"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Assets.Asset, io.vegaprotocol.vega.Assets.Asset.Builder, io.vegaprotocol.vega.Assets.AssetOrBuilder>
+          io.vegaprotocol.vega.Assets.Asset, io.vegaprotocol.vega.Assets.Asset.Builder, io.vegaprotocol.vega.Assets.AssetOrBuilder> 
           getAssetFieldBuilder() {
         if (assetBuilder_ == null) {
           if (!(eventCase_ == 117)) {
@@ -19216,7 +19216,7 @@ public final class Events {
        * <code>.vega.MarketTick market_tick = 118 [json_name = "marketTick"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.MarketTick, io.vegaprotocol.vega.Events.MarketTick.Builder, io.vegaprotocol.vega.Events.MarketTickOrBuilder>
+          io.vegaprotocol.vega.Events.MarketTick, io.vegaprotocol.vega.Events.MarketTick.Builder, io.vegaprotocol.vega.Events.MarketTickOrBuilder> 
           getMarketTickFieldBuilder() {
         if (marketTickBuilder_ == null) {
           if (!(eventCase_ == 118)) {
@@ -19393,7 +19393,7 @@ public final class Events {
        * <code>.vega.Withdrawal withdrawal = 119 [json_name = "withdrawal"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Withdrawal, io.vegaprotocol.vega.Vega.Withdrawal.Builder, io.vegaprotocol.vega.Vega.WithdrawalOrBuilder>
+          io.vegaprotocol.vega.Vega.Withdrawal, io.vegaprotocol.vega.Vega.Withdrawal.Builder, io.vegaprotocol.vega.Vega.WithdrawalOrBuilder> 
           getWithdrawalFieldBuilder() {
         if (withdrawalBuilder_ == null) {
           if (!(eventCase_ == 119)) {
@@ -19570,7 +19570,7 @@ public final class Events {
        * <code>.vega.Deposit deposit = 120 [json_name = "deposit"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.Deposit, io.vegaprotocol.vega.Vega.Deposit.Builder, io.vegaprotocol.vega.Vega.DepositOrBuilder>
+          io.vegaprotocol.vega.Vega.Deposit, io.vegaprotocol.vega.Vega.Deposit.Builder, io.vegaprotocol.vega.Vega.DepositOrBuilder> 
           getDepositFieldBuilder() {
         if (depositBuilder_ == null) {
           if (!(eventCase_ == 120)) {
@@ -19747,7 +19747,7 @@ public final class Events {
        * <code>.vega.AuctionEvent auction = 121 [json_name = "auction"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.AuctionEvent, io.vegaprotocol.vega.Events.AuctionEvent.Builder, io.vegaprotocol.vega.Events.AuctionEventOrBuilder>
+          io.vegaprotocol.vega.Events.AuctionEvent, io.vegaprotocol.vega.Events.AuctionEvent.Builder, io.vegaprotocol.vega.Events.AuctionEventOrBuilder> 
           getAuctionFieldBuilder() {
         if (auctionBuilder_ == null) {
           if (!(eventCase_ == 121)) {
@@ -19924,7 +19924,7 @@ public final class Events {
        * <code>.vega.RiskFactor risk_factor = 122 [json_name = "riskFactor"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.RiskFactor, io.vegaprotocol.vega.Vega.RiskFactor.Builder, io.vegaprotocol.vega.Vega.RiskFactorOrBuilder>
+          io.vegaprotocol.vega.Vega.RiskFactor, io.vegaprotocol.vega.Vega.RiskFactor.Builder, io.vegaprotocol.vega.Vega.RiskFactorOrBuilder> 
           getRiskFactorFieldBuilder() {
         if (riskFactorBuilder_ == null) {
           if (!(eventCase_ == 122)) {
@@ -20101,7 +20101,7 @@ public final class Events {
        * <code>.vega.NetworkParameter network_parameter = 123 [json_name = "networkParameter"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.NetworkParameter, io.vegaprotocol.vega.Vega.NetworkParameter.Builder, io.vegaprotocol.vega.Vega.NetworkParameterOrBuilder>
+          io.vegaprotocol.vega.Vega.NetworkParameter, io.vegaprotocol.vega.Vega.NetworkParameter.Builder, io.vegaprotocol.vega.Vega.NetworkParameterOrBuilder> 
           getNetworkParameterFieldBuilder() {
         if (networkParameterBuilder_ == null) {
           if (!(eventCase_ == 123)) {
@@ -20278,7 +20278,7 @@ public final class Events {
        * <code>.vega.LiquidityProvision liquidity_provision = 124 [json_name = "liquidityProvision"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Vega.LiquidityProvision, io.vegaprotocol.vega.Vega.LiquidityProvision.Builder, io.vegaprotocol.vega.Vega.LiquidityProvisionOrBuilder>
+          io.vegaprotocol.vega.Vega.LiquidityProvision, io.vegaprotocol.vega.Vega.LiquidityProvision.Builder, io.vegaprotocol.vega.Vega.LiquidityProvisionOrBuilder> 
           getLiquidityProvisionFieldBuilder() {
         if (liquidityProvisionBuilder_ == null) {
           if (!(eventCase_ == 124)) {
@@ -20455,7 +20455,7 @@ public final class Events {
        * <code>.vega.Market market_updated = 125 [json_name = "marketUpdated"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Markets.Market, io.vegaprotocol.vega.Markets.Market.Builder, io.vegaprotocol.vega.Markets.MarketOrBuilder>
+          io.vegaprotocol.vega.Markets.Market, io.vegaprotocol.vega.Markets.Market.Builder, io.vegaprotocol.vega.Markets.MarketOrBuilder> 
           getMarketUpdatedFieldBuilder() {
         if (marketUpdatedBuilder_ == null) {
           if (!(eventCase_ == 125)) {
@@ -20632,7 +20632,7 @@ public final class Events {
        * <code>.oracles.v1.OracleSpec oracle_spec = 126 [json_name = "oracleSpec"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpec, io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpec.Builder, io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpecOrBuilder>
+          io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpec, io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpec.Builder, io.vegaprotocol.vega.oracles.v1.OracleSpecOuterClass.OracleSpecOrBuilder> 
           getOracleSpecFieldBuilder() {
         if (oracleSpecBuilder_ == null) {
           if (!(eventCase_ == 126)) {
@@ -20809,7 +20809,7 @@ public final class Events {
        * <code>.oracles.v1.OracleData oracle_data = 127 [json_name = "oracleData"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleData, io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleData.Builder, io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleDataOrBuilder>
+          io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleData, io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleData.Builder, io.vegaprotocol.vega.oracles.v1.OracleDataOuterClass.OracleDataOrBuilder> 
           getOracleDataFieldBuilder() {
         if (oracleDataBuilder_ == null) {
           if (!(eventCase_ == 127)) {
@@ -20986,7 +20986,7 @@ public final class Events {
        * <code>.vega.MarketEvent market = 1001 [json_name = "market"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.MarketEvent, io.vegaprotocol.vega.Events.MarketEvent.Builder, io.vegaprotocol.vega.Events.MarketEventOrBuilder>
+          io.vegaprotocol.vega.Events.MarketEvent, io.vegaprotocol.vega.Events.MarketEvent.Builder, io.vegaprotocol.vega.Events.MarketEventOrBuilder> 
           getMarketFieldBuilder() {
         if (marketBuilder_ == null) {
           if (!(eventCase_ == 1001)) {
@@ -21163,7 +21163,7 @@ public final class Events {
        * <code>.vega.TxErrorEvent tx_err_event = 2001 [json_name = "txErrEvent"];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.vegaprotocol.vega.Events.TxErrorEvent, io.vegaprotocol.vega.Events.TxErrorEvent.Builder, io.vegaprotocol.vega.Events.TxErrorEventOrBuilder>
+          io.vegaprotocol.vega.Events.TxErrorEvent, io.vegaprotocol.vega.Events.TxErrorEvent.Builder, io.vegaprotocol.vega.Events.TxErrorEventOrBuilder> 
           getTxErrEventFieldBuilder() {
         if (txErrEventBuilder_ == null) {
           if (!(eventCase_ == 2001)) {
@@ -21235,62 +21235,62 @@ public final class Events {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_MarketEvent_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_MarketEvent_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_TxErrorEvent_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_TxErrorEvent_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_TimeUpdate_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_TimeUpdate_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_TransferResponses_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_TransferResponses_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_PositionResolution_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_PositionResolution_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_LossSocialization_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_LossSocialization_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_TradeSettlement_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_TradeSettlement_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_SettlePosition_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_SettlePosition_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_SettleDistressed_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_SettleDistressed_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_MarketTick_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_MarketTick_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_AuctionEvent_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_AuctionEvent_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_vega_BusEvent_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_vega_BusEvent_fieldAccessorTable;
 
